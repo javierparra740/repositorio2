@@ -1,8 +1,8 @@
-import Alumno from './main.js';
-var alumno1 = new Alumno("Javier","Parra",1988,34175856,"Posadas 131")
-document.write(alumno1.nombre)
-document.write(alumno1.datos())
-alumno2={
+import { Alumno } from './main.js';
+let alumno1 = new Alumno("Javier","Parra",1988,34175856,"Posadas 131")
+console.log(alumno1.nombre)
+console.log(alumno1.datos())
+let alumno2={
     nombre:"Fabian",
     apellido:"Show"
 }

@@ -1,4 +1,4 @@
-class Alumno{
+export class Alumno{
     /* metodo inicializador de clase, siempre debe estar y 
     es donde se declaran las variables que se pasan como parametro, 
     las cuales luego seran utilizadas en el metodo constructor */
@@ -25,9 +25,9 @@ class Alumno{
         return this.nombre +', '+this.apellido+' -- '+this.direccion
     }
 }
-/* instancia de la clase Alumno (objeto del tipo Alumno)*/
+/* instancia de la clase Alumno (objeto del tipo Alumno)
 let alumno1 = new Alumno("Javier","Parra",1988,34175856,"Posadas 131")
 //mostramos la propiedad nombre del objeto alumno1
 document.write(alumno1.nombre +"<br>")
 //mostramos la el resultado del metodo datos
-document.write(alumno1.datos())
+document.write(alumno1.datos()) */
